@@ -4,8 +4,8 @@ root.title('Number pad')
 root.geometry('250x300')
 nums = [[9,8,7], [6,5,4], [3,2,1], ['#', 0, '*']]
 for i in range(4):
-    root.columnconfigure(i, weight=1, minsize=75)
-    root.rowconfigure(i, weight=1, minsize=50)
+    root.columnconfigure(i, weight=4, minsize=65)
+    root.rowconfigure(i, weight=4, minsize=40)
     for j in range(0,3):
         frame=Frame(
             master=root,
